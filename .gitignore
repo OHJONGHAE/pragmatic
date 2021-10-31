@@ -1,0 +1,81 @@
+ JetBrains IDE 포함: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm 및 Rider
+# 참조: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# 사용자별 항목
+.idea / ** / 작업 공간 .xml
+.idea / ** / task.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / 사전
+.idea / ** / 선반
+
+# AWS 사용자별
+.아이디어 / ** / aws.xml
+
+# 생성된 파일
+.idea / ** / contentModel.xml
+
+# 민감하거나 이탈률이 높은 파일
+.idea / ** / 데이터 소스 /
+.idea / ** / dataSources.ids
+.아이디어 / ** / dataSources.local.xml
+.아이디어 / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.아이디어 / ** / uiDesigner.xml
+.아이디어 / ** / dbnavigator.xml
+
+# 그래들
+.아이디어 / ** / gradle.xml
+.idea / ** / 라이브러리
+
+# 자동 가져오기 기능이 있는 Gradle 및 Maven
+# 자동 가져오기와 함께 Gradle 또는 Maven을 사용할 때 모듈 파일을 제외해야 하며,
+# 다시 생성되어 변동을 일으킬 수 있기 때문입니다. 사용하는 경우 주석 해제
+# 자동 가져오기.
+# . 아이디어/인공물
+# . 아이디어/컴파일러.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# . 아이디어/*.iml
+# . 아이디어/모듈
+# *.iml
+# *.ipr
+
+# 씨 메이크
+cmake 빌드 - * /
+
+# 몽고 익스플로러 플러그인
+.아이디어 / ** / mongoSettings.xml
+
+# 파일 기반 프로젝트 형식
+* .iws
+
+# 인텔리제이
+밖으로 /
+
+# mpeltonen/sbt-idea 플러그인
+.idea_modules /
+
+# JIRA 플러그인
+atlassian-ide-plugin.xml
+
+# 필기체 클로저 플러그인
+.아이디어 / replstate.xml
+
+# Crashlytics 플러그인(Android Studio 및 IntelliJ용)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# 에디터 기반 Rest 클라이언트
+.idea / http요청
+
+# Android 스튜디오 3.1 이상 직렬화된 캐시 파일
+.idea / 캐시 / build_file_checksums.ser
+
+
+
+venv/
+.env
+db.sqlite3
+.idea/
