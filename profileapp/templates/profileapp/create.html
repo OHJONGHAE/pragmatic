@@ -5,7 +5,7 @@
         <div class="mb-4">
             <h4>Profile Create</h4>
         </div>
-        <form action="{% url 'profileapp:create' %}" method ="post">
+        <form action="{% url 'profileapp:create' %}" method ="post" enctype="multipart/form-data">
             {% csrf_token %}
             {% bootstrap_form form %}
 
