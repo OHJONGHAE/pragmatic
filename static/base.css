@@ -12,7 +12,16 @@
 
 .pragmatic_header{
     text-align:center;
-     margin: 2rem 0;
+    margin: 2rem 0;
+}
+
+.pragmatic_header_nav{
+
+    margin: 0 0.5rem;
+}
+
+.pragmatic_header_nav_bar{
+    margin: 1rem 0;
 }
 
 @media screen and (max-width:500px) {
@@ -21,4 +30,14 @@
 
     }
 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+a:hover {
+    color: black;
+    text-decoration: none;
 }
