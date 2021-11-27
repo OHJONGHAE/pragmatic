@@ -14,7 +14,7 @@ RUN pip install mysqlclient
 
 RUN echo "SECRET_KEY=SECRET_KEY=django-insecure-t5y^-m0_gyc#t^^@xm1q910!x-fuc^(k2vccc6e-ik!i7n*#ee" > .env
 
-# RUN python mange.py migrate
+RUN python manage.py migrate
 # 이게 있어서 실행이 됐네...?
 
 RUN python manage.py collectstatic
