@@ -6,6 +6,9 @@
 
              <img src="{{ target_project.image.url }}" alt=""
                  style="height: 12rem; width: 12rem; border-radius : 20rem; margin-bottom: 2rem; object-fit:cover;">
+            <h6 style="font-family: 'NanumSquareB';">
+                @{{ target_project.project_writer.profile.nickname }}
+            </h6>
             <h2 style="font-family: 'NanumSquareB';">
                 {{ target_project.title }}
             </h2>
@@ -26,6 +29,13 @@
                 <a href="{% url 'subscribeapp:subscribe' %}?project_pk={{ target_project.pk }}"
                     class="btn btn-dark rounded-pill px-4">
                     Unsubscribe
+                </a>
+                {% endif %}
+
+                {% if target_project.project_writer == user %}
+               <a href="{% url 'projectapp:delete' pk=target_project.pk %}"
+                    class="btn btn-danger rounded-pill px-4">
+                Delete
                 </a>
                 {% endif %}
             {% endif %}
